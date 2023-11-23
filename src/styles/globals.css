@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* [data-collapsible="true"].bg-white + [data-collapsible="true"].bg-white,
+[data-collapsible="true"].bg-gray-800 + [data-collapsible="true"].bg-gray-800 {
+  @apply pt-0 md:pt-0;
+} */
+
+main {
+  background-color: theme('colors.text');
+  color: white;
+  font-family: theme('fontFamily.sans');
+}
